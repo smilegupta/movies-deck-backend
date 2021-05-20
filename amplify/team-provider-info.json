@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moviesdeck-dev-00607-authRole",
+      "UnauthRoleArn": "arn:aws:iam::318066470757:role/amplify-moviesdeck-dev-00607-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::318066470757:role/amplify-moviesdeck-dev-00607-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-moviesdeck-dev-00607-deployment",
+      "UnauthRoleName": "amplify-moviesdeck-dev-00607-unauthRole",
+      "StackName": "amplify-moviesdeck-dev-00607",
+      "StackId": "arn:aws:cloudformation:ap-south-1:318066470757:stack/amplify-moviesdeck-dev-00607/41bfb230-b4e3-11eb-afb2-06666c67f292",
+      "AmplifyAppId": "d37syy9lfv24md"
+    }
+  }
+}

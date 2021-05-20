@@ -1,0 +1,21 @@
+type WatchList @model
+@key(fields: ["userId", "watchListId"])
+{
+    userId: ID!
+    watchListId: ID!
+    name: String!
+    description: String
+}
+
+type Movies @model
+@key(fields: ["watchListId", "movieId"]) {
+    watchListId: ID!
+    movieId: ID!
+    title: String!
+    genres: [Int]
+    isAdult: Boolean
+    backdropPath: String!
+    posterPath: String!
+    releaseDate: String!
+    userId: ID!
+}
